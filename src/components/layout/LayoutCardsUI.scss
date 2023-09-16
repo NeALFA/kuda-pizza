@@ -1,0 +1,35 @@
+.layout__cards__header {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 32px;
+  h2 {
+    color: #191919;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+  }
+  button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 9px 16px;
+    border-radius: 6px;
+    border: 1px solid #f0f0f0;
+    background: #fff;
+    color: #191919;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+  }
+}
+.layout__cards__body {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 28px;
+  column-gap: 30px;
+}
